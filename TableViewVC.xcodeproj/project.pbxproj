@@ -16,6 +16,7 @@
 		1B05A65D2B29C2F900802C01 /* TableViewVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05A65C2B29C2F900802C01 /* TableViewVCTests.swift */; };
 		1B05A6672B29C2F900802C01 /* TableViewVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05A6662B29C2F900802C01 /* TableViewVCUITests.swift */; };
 		1B05A6692B29C2F900802C01 /* TableViewVCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05A6682B29C2F900802C01 /* TableViewVCUITestsLaunchTests.swift */; };
+		1B05A6772B29DEAE00802C01 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05A6762B29DEAE00802C01 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1B05A6622B29C2F900802C01 /* TableViewVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B05A6662B29C2F900802C01 /* TableViewVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVCUITests.swift; sourceTree = "<group>"; };
 		1B05A6682B29C2F900802C01 /* TableViewVCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B05A6762B29DEAE00802C01 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				1B05A6452B29C2F700802C01 /* AppDelegate.swift */,
 				1B05A6472B29C2F700802C01 /* SceneDelegate.swift */,
 				1B05A6492B29C2F700802C01 /* ViewController.swift */,
+				1B05A6752B29DE8800802C01 /* Model */,
 				1B05A64B2B29C2F700802C01 /* Main.storyboard */,
 				1B05A64E2B29C2F900802C01 /* Assets.xcassets */,
 				1B05A6502B29C2F900802C01 /* LaunchScreen.storyboard */,
@@ -125,6 +128,14 @@
 				1B05A6682B29C2F900802C01 /* TableViewVCUITestsLaunchTests.swift */,
 			);
 			path = TableViewVCUITests;
+			sourceTree = "<group>";
+		};
+		1B05A6752B29DE8800802C01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B05A6762B29DEAE00802C01 /* Contact.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B05A6772B29DEAE00802C01 /* Contact.swift in Sources */,
 				1B05A64A2B29C2F700802C01 /* ViewController.swift in Sources */,
 				1B05A6462B29C2F700802C01 /* AppDelegate.swift in Sources */,
 				1B05A6482B29C2F700802C01 /* SceneDelegate.swift in Sources */,
